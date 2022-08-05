@@ -344,6 +344,22 @@ hr{
   .Card{
   margin-bottom: 32px;
   }
+  .footer{
+    padding-top: 48px;
+  }
+  .footer-button{
+    padding: 4px 31px;
+  }
+  .contact-footer-button{
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .footer-info{
+    flex-direction: column;
+  }
+  .flexGrow{
+    margin-bottom: 24px;
+  }
 
   
 }
@@ -410,4 +426,30 @@ hr{
   .project_item_margin{
     margin-right: 0;
   }
+  .all_rigts{
+    margin-top: 32px;
+  }
+  .footer_heating{
+    width: 75px;
+    margin: 0 auto 32px;
+    text-align: center;
+  }
+  .footer-top{
+    flex-direction: column;
+    padding-bottom: 41px;
+  }
+  .text_footer{
+    width: 100%;
+  }
+  .flexGrow{
+    margin-bottom: 18px;
+  }
+  .all_rigts{
+    margin-top: 32px;
+  }
+  .footer{
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+  
 }
