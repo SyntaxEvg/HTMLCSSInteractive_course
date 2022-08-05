@@ -2,6 +2,63 @@
     margin: 0;
     padding: 0;
   }
+  .cu-header {
+    position: relative;
+    background-image: url(../img/cu-header.png);
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .cu-header-text {
+    margin-top: 56px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cu-header h2 {
+    font-size: 44px;
+    line-height: 74px;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 40px 0 0 0;
+    padding: 0;
+  }
+  
+  .cu-header p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    width: 780px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .circle {
+    left: 0%;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #316099;
+    background-color: #316099;
+    border-radius: 50%;
+  }
+  .circle-white {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #316099;
+    border-radius: 50%;
+    left: 16px;
+    background-color: #fff;
+  }
+  .top-nav ul {
+    padding-top: 39px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
   
   .header {
     display: flex;
