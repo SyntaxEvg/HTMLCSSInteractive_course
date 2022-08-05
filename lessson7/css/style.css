@@ -313,18 +313,101 @@ hr{
     background-image: url(../img/top__back.png);
     background-repeat: no-repeat;
     background-position: right center;
+    background-size: 45%;
 }
 .what-we-do {
   padding-top: 64px;
 }
 .top {
-  height: 768px;
+  min-height: 768px;
   background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 .top__container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 .content{
   padding-top: 64px;
+}
+@media  (max-width:1024px){
+  top__container{
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .top_info {
+    background-position: right 280px;
+  }
+  .CardBox{
+    flex-direction: column;
+    align-items: center;
+  }
+  .Card{
+  margin-bottom: 32px;
+  }
+
+  
+}
+@media  (max-width: 667px){
+  
+  .top{
+  min-height: 376px;
+  padding-bottom: 41px;
+  box-sizing: border-box;
+  }
+  .top_heading{
+    font-size: 32px;
+    line-height: 37px;
+    width: 100%;
+  }
+  .top_text{
+    width: 100%;
+    text-align: center;
+  }
+  .top_info {
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: none;
+  }
+  .header{
+    padding-top: 24px;
+  }
+  .top__button{
+    font-size: 12px;
+    line-height: 26px;
+    padding: 4px 8px;
+  }
+  .h3Tag{
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .what-we-do{
+   padding-top: 48px;
+  }
+  .CardBox{
+    padding-top: 32px;
+  }
+  .Card{
+    width: 100%
+  }
+  .text_project{
+    width: 100%;
+  }
+  .project__text{
+    font-size: 16px;
+    line-height: 19px;
+    top: 16px;
+    right: 16px;
+  }
+  .pt-m{
+    padding-left: 16px;
+  }
+  .project__parent{
+    flex-direction: column;    
+    margin-top: 16px;
+  }
+  .project_item_margin{
+    margin-right: 0;
+  }
 }
